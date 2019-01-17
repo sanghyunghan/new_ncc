@@ -1,0 +1,1 @@
+nohup python -u keras_retinanet/bin/new_train.py --snapshot snapshots/0912_resnet50_epoch80/resnet50_csv_33.h5 csv /home/huray/data/new_trainset/0906_new_train_data_3000_for_test.csv /home/huray/data/new_trainset/class_malig_and_norm.csv  --evaluation True --val-annotations /home/huray/data/new_trainset/0830_new_valid_data_200_extract_from_new_test_data.csv &

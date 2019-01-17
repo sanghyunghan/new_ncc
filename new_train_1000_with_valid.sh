@@ -1,0 +1,1 @@
+nohup python -u keras_retinanet/bin/new_train.py csv /home/huray/data/new_trainset/0830_new_valid_data.csv /home/huray/data/new_trainset/class_malig_and_norm.csv  --evaluation True --val-annotations /home/huray/data/new_trainset/0830_new_valid_data_200_extract_from_new_test_data.csv &

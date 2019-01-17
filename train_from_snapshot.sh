@@ -1,0 +1,1 @@
+nohup python -u keras_retinanet/bin/train.py --snapshot snapshots/0316_aug_no_cont/resnet101_csv_53.h5 csv /home/huray/data/NCC_trainset/img_retinanet/data_cbis_ncc_abnonly_benign_is_malig.csv /home/huray/data/NCC_trainset/img_retinanet/class_2_malig_norm.csv &

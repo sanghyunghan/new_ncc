@@ -1,0 +1,1 @@
+nohup python -u keras_retinanet/bin/train.py csv /home/huray/data/retinanet_train_cbis_ncc-abn1801-1805_inb-mass_allM.csv /home/huray/data/class_2_malig_or_norm.csv --evaluation True --val-annotations /home/huray/data/new_trainset/0830_new_valid_data_for_test.csv &
