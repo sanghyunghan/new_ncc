@@ -42,7 +42,7 @@ def area_rate(intersect_area, a, b):  # returns [] if rectangles don't intersect
 ####영역 리스트에 해당하는 선택된 index 목록을 return 한다. ####
 def select_deteced_list(d_list, score_list):
     sel_idx_status = [0]*len(d_list)
-    return sel_idx_status
+    #return sel_idx_status
 
     max_intersect_area = 0
     compare_idx = 0
